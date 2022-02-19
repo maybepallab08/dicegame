@@ -1,7 +1,7 @@
 let random1 = Math.ceil(6 * Math.random());
 let random2 = Math.ceil(6 * Math.random());
-let diceimage1 = "/images/dice" + random1 + ".png";
-let diceimage2 = "/images/dice" + random2 + ".png";
+let diceimage1 = "dice" + random1 + ".png";
+let diceimage2 = "dice" + random2 + ".png";
 
 if (random1 > random2) {
   document.querySelector("h1").innerHTML = "Pallab Wins,   I'm Sorry Baby 😢";
