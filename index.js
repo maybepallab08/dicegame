@@ -7,7 +7,7 @@ if (random1 > random2) {
   document.querySelector("h1").innerHTML = "Pallab Wins,   I'm Sorry Baby 😢";
 } else if (random2 > random1) {
   document.querySelector("h1").innerHTML =
-    "Rachna Wins .   Cheers.    Yaay! 🍺 ";
+    "Rachana Wins .   Cheers.    Yaay! 🍺 ";
 } else {
   document.querySelector("h1").innerHTML = "We both win.    Yaay 🎉";
 }
